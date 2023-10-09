@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.add {
+  padding: 30rpx;
+  border-radius: 15rpx;
+}
+.add .item {
+  background-color: #FFFFFF;
+  padding: 20rpx;
+}
+.add .item input {
+  border-radius: 15rpx;
+  border: 2rpx solid #DCDFE6;
+  height: 80rpx;
+  padding: 0 20rpx;
+}
+.add .item textarea {
+  border-radius: 15rpx;
+  border: 2rpx solid #DCDFE6;
+}
+.add .item .title-relenish {
+  font-size: 35rpx;
+  color: #999;
+}
+.example-body-file {
+  padding: 10px;
+  padding-top: 0;
+}
+.example-body {
+  padding: 12px;
+  background-color: #FFFFFF;
+}
+

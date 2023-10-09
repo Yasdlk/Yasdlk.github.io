@@ -1,0 +1,1 @@
+<view><button>登录账户</button><button>我的求职</button><button>我的招聘</button><button data-event-opts="{{[['tap',[['goAdd',['$event']]]]]}}" class="goAdd" bindtap="__e">我要招聘</button><button>用户条款</button></view>

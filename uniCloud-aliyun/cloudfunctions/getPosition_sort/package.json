@@ -1,0 +1,7 @@
+{
+  "name": "getPosition_hotel",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

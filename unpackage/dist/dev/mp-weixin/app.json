@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/Home/Home",
+    "pages/Search/Search",
+    "pages/My/My",
+    "pages/tutor/tutor",
+    "pages/takeout/takeout",
+    "pages/hotel/hotel",
+    "pages/others/others",
+    "pages/meal/meal",
+    "pages/MyRecruit-add/MyRecruit-add",
+    "pages/PositionDetail/PositionDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "长青树兼职",
+    "navigationBarBackgroundColor": "#00FFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "text": "首页",
+        "iconPath": "static/tabbar/icon_home.png",
+        "selectedIconPath": "static/tabbar/icon_active_home.png"
+      },
+      {
+        "pagePath": "pages/Search/Search",
+        "text": "搜索",
+        "iconPath": "static/tabbar/icon_search.png",
+        "selectedIconPath": "static/tabbar/icon_active-search.png"
+      },
+      {
+        "pagePath": "pages/My/My",
+        "text": "我的",
+        "iconPath": "static/tabbar/icon_my.png",
+        "selectedIconPath": "static/tabbar/icon_active_my.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

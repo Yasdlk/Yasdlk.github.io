@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.PositionSort {
+  display: flex;
+  height: 150rpx;
+  width: 700rpx;
+  border: 2rpx;
+  border-radius: 45rpx;
+  box-shadow: 2rpx 2rpx 4rpx rgba(0, 0, 0, 0.5);
+  margin: 20rpx;
+  background-color: #FFFFFF;
+}
+.PositionSort .item-1 {
+  display: flex;
+  /* 纵向布局 */
+  flex-direction: column;
+  /* 分散对齐 */
+  justify-content: space-around;
+  padding: 30rpx;
+}
+.PositionSort .sort {
+  font-weight: bold;
+}
+.PositionSort .salary {
+  color: red;
+}
+.PositionDescribe {
+  background-color: #FFFFFF;
+  display: flex;
+  height: 300rpx;
+  width: 700rpx;
+  border: 2rpx;
+  border-radius: 45rpx;
+  box-shadow: 2rpx 2rpx 4rpx rgba(0, 0, 0, 0.5);
+  margin: 20rpx;
+}
+.PositionDescribe .item-2 {
+  display: flex;
+  /* 纵向布局 */
+  flex-direction: column;
+  margin: 20rpx;
+}
+.PositionDescribe .title {
+  font-weight: bold;
+}
+.PositionRequest {
+  background-color: #FFFFFF;
+  display: flex;
+  height: 300rpx;
+  width: 700rpx;
+  border: 2rpx;
+  border-radius: 45rpx;
+  box-shadow: 2rpx 2rpx 4rpx rgba(0, 0, 0, 0.5);
+  margin: 20rpx;
+}
+.PositionRequest .item-3 {
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx;
+}
+.PositionRequest .title {
+  font-weight: bold;
+}
+.PositionAddress {
+  background-color: #FFFFFF;
+  display: flex;
+  height: 150rpx;
+  width: 700rpx;
+  border: 2rpx;
+  border-radius: 45rpx;
+  box-shadow: 2rpx 2rpx 4rpx rgba(0, 0, 0, 0.5);
+  margin: 20rpx;
+}
+.PositionAddress .item-4 {
+  display: flex;
+  /* 纵向布局 */
+  flex-direction: column;
+  /* 分散对齐 */
+  justify-content: space-around;
+  padding: 30rpx;
+}
+.PositionAddress .title {
+  font-weight: bold;
+}
+.collet-item {
+  display: flex;
+  flex-direction: column;
+}
+.collet-item .share {
+  font-size: 25rpx;
+  margin-left: 7rpx;
+}
+

@@ -1,0 +1,125 @@
+{
+	"pages": [{
+            "path" : "pages/Home/Home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "长青树-首页",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/Search/Search",
+            "style" :                                                                       
+            {
+              
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/My/My",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/tutor/tutor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "家教",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/takeout/takeout",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "外卖",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/hotel/hotel",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "酒店",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/others/others",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/meal/meal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "餐饮",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/MyRecruit-add/MyRecruit-add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布招聘信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/PositionDetail/PositionDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "工作详情",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "长青树兼职",
+		"navigationBarBackgroundColor": "#00FFFF",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#FFFAFA"
+		}
+	},
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "text": "首页",
+        "iconPath": "static/tabbar/icon_home.png",
+        "selectedIconPath": "static/tabbar/icon_active_home.png"
+      },
+      {
+        "pagePath": "pages/Search/Search",
+        "text": "搜索",
+        "iconPath": "static/tabbar/icon_search.png",
+        "selectedIconPath": "static/tabbar/icon_active-search.png"
+      },
+      {
+        "pagePath": "pages/My/My",
+        "text": "我的",
+        "iconPath": "static/tabbar/icon_my.png",
+        "selectedIconPath": "static/tabbar/icon_active_my.png"
+      }
+    ]
+  }
+}

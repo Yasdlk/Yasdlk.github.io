@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+swiper {
+  height: 330rpx;
+}
+swiper .swiper-item,
+swiper image {
+  width: 100%;
+  height: 100%;
+}
+.sort-postion {
+  font-size: 30rpx;
+  text-align: center;
+  margin: 30rpx;
+  color: #808080;
+  text-shadow: 2rpx 2rpx 4rpx rgba(0, 0, 0, 0.2);
+}
+.nav-list {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  height: 130rpx;
+  width: 705rpx;
+  margin: 20rpx;
+  border-radius: 90rpx;
+  border: 2rpx solid #00FFFF;
+  box-shadow: 2rpx 2rpx 4rpx rgba(0, 0, 0, 0.5);
+}
+.total-postion {
+  font-size: 30rpx;
+  text-align: center;
+  margin: 30rpx;
+  color: #808080;
+  text-shadow: 2rpx 2rpx 4rpx rgba(0, 0, 0, 0.2);
+}
+.nav-item {
+  margin-top: 20rpx;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+}
+.nav-img {
+  width: 60rpx;
+  height: 50rpx;
+}
+.nav-text {
+  /* 字体大小 */
+  font-size: 28rpx;
+  /* 文本和图片有了一定的间距 */
+}
+.potion-item {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130rpx;
+  width: 94%;
+  margin: 20rpx;
+  border-radius: 40rpx;
+  border: 2rpx solid #00FFFF;
+  box-shadow: 2rpx 2rpx 4rpx rgba(0, 0, 0, 0.5);
+}
+.piece-text-sort text {
+  font-size: 25rpx;
+  text-align: center;
+  padding-left: 45rpx;
+  padding-right: 45rpx;
+}
+.piece-text-address text {
+  font-size: 25rpx;
+  text-align: center;
+  padding-left: 45rpx;
+  padding-right: 45rpx;
+}
+.piece-text-salary {
+  font-size: 40rpx;
+  color: #FF0000;
+}
+.warn {
+  font-size: 25rpx;
+  text-align: center;
+  color: #A9A9A9;
+}
+

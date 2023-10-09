@@ -1,0 +1,7 @@
+{
+  "name": "getPositionDetail",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
